@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './HeroSection.scss';
 
 function HeroSection() {
     return (
@@ -9,11 +9,11 @@ function HeroSection() {
             <video src="/videos/video.mp4" autoPlay loop muted />
             <div class="container">
   <div class="Title">
-    <h1>Header title
+    <h1>Software Engineer
       <div class="Title__highlight"></div>
     </h1>
     <div class="Title__underline"></div>
-    <div aria-hidden class="Title__filled">Header title</div>
+    <div aria-hidden class="Title__filled">Software Engineer</div>
   </div>
 </div>
             <p>blah blah blah</p>
