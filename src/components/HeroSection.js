@@ -7,7 +7,15 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <video src="/videos/video.mp4" autoPlay loop muted />
-            <h1>Lorem Ipsum</h1>
+            <div class="container">
+  <div class="Title">
+    <h1>Header title
+      <div class="Title__highlight"></div>
+    </h1>
+    <div class="Title__underline"></div>
+    <div aria-hidden class="Title__filled">Header title</div>
+  </div>
+</div>
             <p>blah blah blah</p>
             <div className='hero-btns'>
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
