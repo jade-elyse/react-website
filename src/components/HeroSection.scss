@@ -24,18 +24,7 @@ video {
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .hero-btns {
-    margin-top: 32px;
-  }
-  
-  .hero-btns .btn {
-    margin: 6px;
-  }
-  
-  .fa-play-circle {
-    margin-left: 4px;
+      text-align: center;
   }
   
   @media screen and (max-width: 960px) {
@@ -73,7 +62,7 @@ video {
   }
   
   .container {
-    margin: 60px;
+    margin: 0 60px 60px 60px;
   }
   
   .Title {
@@ -156,6 +145,10 @@ video {
   }
   .Title__filled {
     font-size: 2.5em;
+  }
+
+  .hero-container > p {
+    font-size: 20px;
   }
 }
 
