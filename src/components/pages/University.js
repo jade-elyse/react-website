@@ -5,7 +5,7 @@ export default function University() {
   return (
     <div className="full-container">
     <div className='hero-container'>
-    <img src="/images/img-2.jpeg" autoPlay loop muted />
+    <img src="/images/img-2.jpeg" alt="Glasgow University" />
     <div class="container">
     <div class="Title">
         <h1>University

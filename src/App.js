@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { css } from "@emotion/react";
-import RingLoader from "react-spinners/RingLoader";
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
@@ -10,15 +8,6 @@ import AboutMe from './components/pages/AboutMe';
 import Work from './components/pages/Work';
 import Footer from './components/Footer'
 
-const override = css`
-  display: block;
-  border-color: #242424;
-  border-style: solid;
-  border-width: 25vh 40vw;
-  background-color: #242424;
-  padding: 100vh 100%;  
-`;
-
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -26,12 +15,13 @@ function App() {
     setLoading(true);
     setTimeout(() => {
         setLoading(false);
-    }, )
+    }, 9000)
   }, [])
   return (
     <>
     {
-      loading ? <RingLoader color={"#36D7B7"} loading={loading} css={override} size={150} />
+     
+      loading ? <div id='my-div'><img class="animated-gif "src="/videos/loader.gif" /></div>
     :
       <Router>
         <Navbar />

@@ -6,7 +6,7 @@ export default function Work() {
   return (
     <div className="full-container">
     <div className='hero-container'>
-    <img src="/images/img-1.jpeg" autoPlay loop muted />
+    <img src="/images/img-1.jpeg" />
     <div class="container">
     <div class="Title">
         <h1>Work
